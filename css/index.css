@@ -43,6 +43,11 @@ a:before {
   box-shadow: 5px 5px 0 #000;
 }
 
+#button:hover {
+  background-color: #37214a;
+  transition: 0.7s;
+}
+
 body {
   color: rgb(107, 66, 81);
   /* font-size: 60px;
