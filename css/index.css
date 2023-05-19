@@ -41,18 +41,18 @@ a:before {
   padding: 20px 18px;
   margin-right: 0;
   box-shadow: 5px 5px 0 #000;
+  transition: transform 100ms ease-out;
 }
 
 #button:hover {
-  background-color: #37214a;
-  transition: 0.6s;
+  transform: scale(1.05);
+  background-color: #5cc4db;
+  transition: 100ms ease-in;
 }
-
+/* 
 body {
   color: rgb(107, 66, 81);
-  /* font-size: 60px;
-  font-family: 'Open Sans', sans-serif; */
-}
+} */
 
 .thumb {
   width: 60px;
