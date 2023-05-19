@@ -107,6 +107,8 @@ section {
 }
 body {
   line-height: 1;
+  font-family: 'Fira Code', Arial, Helvetica, sans-serif;
+  background-color: rgb(43, 5, 49);
 }
 ol,
 ul {
@@ -126,4 +128,7 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+button {
+  font-family: inherit;
 }

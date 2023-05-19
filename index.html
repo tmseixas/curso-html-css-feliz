@@ -8,6 +8,9 @@
     <link rel="stylesheet" type="text/css" href="css/components/title.css" />
     <link rel="stylesheet" type="text/css" href="css/components/subtitle.css" />
     <link rel="stylesheet" type="text/css" href="css/components/box.css" />
+    <link rel="stylesheet" type="text/css" href="css/components/button.css" />
+    <link rel="stylesheet" type="text/css" href="css/components/action.css" />
+    <link rel="stylesheet" type="text/css" href="css/components/header.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,21 +22,24 @@
   </head>
 
   <body>
-    <header>
+    <header class="header">
       <img src="assets/thumb2021.jpg" width="80 px" class="thumb" />
       <nav>
-        <a href="#skills">Skills</a>
-        <a href="#proj">Projetos</a>
-        <a href="#sobre">Sobre</a>
-        <a href="#contatos">Contatos</a>
-        <a id="button" href="#download">Download CV</a>
+        <a class="action" href="#skills">Skills</a>
+        <a class="action" href="#proj">Projetos</a>
+        <a class="action" href="#sobre">Sobre</a>
+        <a class="action" href="#contatos">Contatos</a>
+        <a class="button" href="#download">Download CV</a>
       </nav>
     </header>
 
-    <div id="box">
-      <h1>Thiago MS</h1>
-      <h2>FrontEnd Developer</h2>
+    <div class="box">
+      <h1 class="title">Thiago MS</h1>
+      <h2 class="subtitle">FrontEnd Developer</h2>
     </div>
+
+    <a class="button" href="#download">Download CV</a>
+    <a class="button" href="#download">Contatos</a>
 
     <section id="skills"></section>
     <section id="proj"></section>
