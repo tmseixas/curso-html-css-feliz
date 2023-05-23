@@ -37,6 +37,11 @@
       type="text/css"
       href="css/components/skill-tec.css"
     />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/components/wrapper-card.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -134,23 +139,31 @@
     </section>
     <section id="proj" class="section -bgBlack -bdFirst">
       <h2 class="main-title -second">Projetos</h2>
-      <figure class="card-project">
-        <img
-          class="logo"
-          src="assets/logo-firedlabs.png"
-          alt="Logo da FiredLabs"
-        />
-      </figure>
-      <figure class="card-project -blue">
-        <img
-          class="logo"
-          src="assets/logo-collabcode.png"
-          alt="Logo da Collabcode"
-        />
-      </figure>
-      <figure class="card-project">
-        <img class="logo" src="assets/portfolio.png" alt="Logo da Cara" />
-      </figure>
+      <div class="wrapper-card">
+        <a href="https://www.firedlabs.com" target="_blank">
+          <figure class="card-project">
+            <img
+              class="logo"
+              src="assets/logo-firedlabs.png"
+              alt="Logo da FiredLabs"
+            />
+          </figure>
+        </a>
+        <a href="http://www.collabcode.training" target="_blank">
+          <figure class="card-project -blue">
+            <img
+              class="logo"
+              src="assets/logo-collabcode.png"
+              alt="Logo da Collabcode"
+            />
+          </figure>
+        </a>
+        <a href="https://github.com/tmseixas" target="_blank">
+          <figure class="card-project">
+            <img class="logo" src="assets/portfolio.png" alt="Logo da Cara" />
+          </figure>
+        </a>
+      </div>
     </section>
     <section id="sobre"></section>
     <section id="contatos"></section>
